@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@800&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+li{
+    font-weight: 600;
+    font-size:large;
+}
+
+li:hover{
+   /* color:hsl(241deg 60% 26%);
+    */
+    color:white;
+
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
