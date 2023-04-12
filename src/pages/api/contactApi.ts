@@ -7,7 +7,8 @@ export const contactApi = async(req,res)=>{
         await connection();
         
         const contactData = req.body
-        res.status(201).json({contactData})
+        const finalData = contactData.save()
+        res.status(201).json({finalData})
 
 
     }

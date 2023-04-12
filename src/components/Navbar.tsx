@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-b from-light-blue to-lighter-blue border-gray-200 px-2 sm:px-4 py-6 sticky top-0 z-50 ">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <h1 className="text-3xl  font-bold ml-12">FluxCodify</h1>
+      <Link href="/home"><h1 className="text-3xl  font-bold ml-12">FluxCodify</h1></Link>
         {/* <Image src = {fluxCodify} width={200} height={150}/> */}
 
         <ul className="flex flex-row space-x-6">
@@ -23,7 +23,7 @@ const Navbar = () => {
           <li>
             <Link href="/about">About Us</Link>
           </li>
-          <li>
+          {/* <li>
             <button
               id="dropdownNavbarLink"
               onClick={() => setDropDown(!dropDown)}
@@ -55,32 +55,29 @@ const Navbar = () => {
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 hover:bg-light-blue dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
+                    <Link href = "/team" className="block px-4 py-2 hover:bg-light-blue dark:hover:bg-gray-600 dark:hover:text-white">
+                      
+                      
+                    
                       Team
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 hover:bg-light-blue dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
+                    <Link href = "/portfolio" className="block px-4 py-2 hover:bg-light-blue dark:hover:bg-gray-600 dark:hover:text-white">
                       Portfolio
-                    </a>
+                    </Link>
                   </li>
                 
                 </ul>
                
               </div>
             )}
-          </li>
+          </li> */}
 
           <li>
             <Link
               href="/contact"
-              className="bg-black p-2 px-3 rounded-md text-white mr-12"
+              className="bg-black p-2 px-3 rounded-md text-white mr-12 hover:bg-darkest-blue  shadow-lg "
             >
               Contact Us
             </Link>

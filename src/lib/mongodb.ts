@@ -5,7 +5,7 @@ export const connection = async()=>{
     try{
         
 
-            const currentConnection = await mongoose.connect(process.env.MONGODB_URI,{
+            const currentConnection = await mongoose.connect("mongodb+srv://admin:himanshu@cluster0.thkmk.mongodb.net/?retryWrites=true&w=majority",{
                 useNewUrlParser : true,
                 useUnifiedTopology:true,
             })

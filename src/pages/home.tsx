@@ -1,7 +1,10 @@
 import Main from "@/components/page/Main";
 
 
+
 const Home = ()=>{
+
+ 
     return(
         <>
         <div className = "w-screen h-96 bg-gradient-to-b from-lighter-blue to-gray-50 flex flex-col justify-center items-center space-y-10">
