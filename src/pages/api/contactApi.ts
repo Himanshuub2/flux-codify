@@ -12,4 +12,7 @@ export const contactApi = async(req,res)=>{
 
 
     }
+    catch(err){
+        console.log(err)
+    }
 }
