@@ -33,11 +33,11 @@ const whatCards = [
 
 const What = ()=>{
     return(
-        <div className="flex flex-row flex-wrap justify-center w-4/5 h-screen  ">
+        <div className="flex flex-row flex-wrap justify-center w-4/5 h-[100%]  ">
             {
                 whatCards.map(card=>(
                     <>
-                    <div className="hover:cursor-pointer hover: w-96 h-content mb-6 mx-3 bg-gray-500 drop-shadow-2xl rounded-[30px] text-center  px-8">
+                    <div className="hover:cursor-pointer hover: w-96 h-content mb-5 mx-3 pb-2 bg-gray-500 drop-shadow-2xl rounded-[30px] text-center  px-8">
                         <h1 className="text-3xl font-bold text-white mt-5 mb-6">{card.heading}</h1>
                         <div className="text-[18px] text-white">{card.description}</div>
                     </div>

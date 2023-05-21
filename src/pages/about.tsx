@@ -3,7 +3,7 @@
 
 const About = ()=>{
     return (
-        <div className="w-screen h-screen flex flex-col items-center  my-24   text-gray-500">
+        <div className="w-screen h-[100%] flex flex-col items-center  my-24   text-gray-500">
             <div className="w-1/2">
             <h1 className = "mb-12 text-6xl font-medium font-serif text-gray-800 ">About Us</h1>
             

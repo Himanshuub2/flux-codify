@@ -15,7 +15,6 @@ export default function IndexHome() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Home/>
-      
     </>
   )
 }

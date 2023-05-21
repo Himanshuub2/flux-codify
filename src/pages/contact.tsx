@@ -2,7 +2,7 @@ import style from  "../styles/Home.module.css"
 
 const Contact = () => {
   return (
-    <div className="h-screen bg-gray-100 ">
+    <div className="h-[100%] bg-gray-100 ">
       <h1 className="text-4xl text-gray-600 text-center font-serif mt-12 mb-2 font-medium">Share What you are Looking for</h1>
       <h2 className="text-gray-600 text-center font-serif mb-12 font-medium">Our Team will Reach out to you for the requirement</h2>
      <form className="flex flex-col justify-center items-center space-y-6 ">
